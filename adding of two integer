@@ -13,3 +13,49 @@ class AddNumbers
       System.out.println("Sum of entered integers = "+z);
    }
 }
+
+
+
+
+multiple two numbers
+
+
+1
+import java.util.Scanner;
+2
+ 
+3
+/**
+4
+ * Java program for multiplying two numbers
+5
+ * @author jj
+6
+ */
+7
+public class MultiplyNumbers {
+8
+    public static void main(String[] args) {
+9
+        Scanner sn = new Scanner(System.in);
+10
+         
+11
+        System.out.print("Please enter first number:");
+12
+        double n1 = sn.nextDouble();               
+13
+        System.out.print("Please enter second number:");
+14
+        double n2 = sn.nextDouble();
+15
+         
+16
+        double product = n1 * n2;
+17
+        System.out.println(n1+"*"+n2+"="+product);
+18
+         
+19
+    }
+20
